@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 1px solid black;
+  width: 50%;
+  height: 80vh;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.second_container {
+  width: 50%;
+  height: 97%;
+  padding: 20px;
+  display: flex;
+}
+.left_side {
+  border: 1px solid lightgray;
+  flex-grow: 0.5;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+.right_side {
+  border: 1px solid lightgray;
+  flex-grow: 1;
+  background-color: whitesmoke;
+}
+.left_top {
+  width: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.more {
+  margin-top: 20px;
+  color: gray;
+}
+.contact {
+  margin-top: 30px;
+  color: gray;
+}
+.line {
+  border: 1px solid gray;
+  margin-top: 30px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.left_bottom {
+  width: 30px;
+  justify-content: center;
+  text-align: center;
+  margin-left: -30px;
+}
+.right_arrow {
+  margin-top: 190px;
+  color: gray;
+}
+svg {
+  width: 25px;
+  height: 25px;
+}
+.message {
+  margin-top: 25px;
+  color: blue;
+}
+.photo {
+  margin-top: 25px;
+}
+h3 {
+  padding: 20px;
+}
+.right_top {
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.cons {
+  margin-left: 20px;
+  color: gray;
+  font-size: smaller;
+}
+.your_bor {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.you {
+  display: flex;
+  padding: 10px;
+}
+.profile_right {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.men {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.all {
+  display: flex;
+  padding: 10px;
+  color: blue;
+}
+.people {
+  padding: 10px;
+}
+.all_number {
+  display: flex;
+  position: relative;
+}
+.number {
+  margin-top: 6px;
+  position: absolute;
+  right: -170px;
+}
+.user {
+  width: 20px;
+  display: flex;
+  padding: 10px;
+  position: relative;
+}
+.unasign {
+  display: flex;
+  position: relative;
+}
+.sale {
+  display: flex;
+  width: 20px;
+  padding: 10px;
+  position: relative;
+}
+.sa {
+  display: flex;
+}
+.show {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  color: gray;
+}
+.number1 {
+  margin-top: 6px;
+  position: absolute;
+  right: -120px;
+}
+.number2 {
+  margin-top: 6px;
+  position: absolute;
+  right: -220px;
+}
+.number3 {
+  margin-top: 6px;
+  position: absolute;
+  right: -210px;
+}
+.number4 {
+  position: absolute;
+  right: -220px;
+}
+.image {
+  width: 20px;
+  border-radius: 50%;
+}
